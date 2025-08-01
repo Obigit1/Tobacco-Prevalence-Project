@@ -11,6 +11,9 @@ This project shall focus on:
 
 In order to achieve these aims, we preprocessed the data by sieving out the incomplete data which was very minimal to affect the outcome of the finding. The entire data consists of 43,342 rows and 31 columns. We also sorted the necessary columns for the purpose of this project. It was discovered also that some of the years where merged together in form of range which was resolved by splitting the years, then selected the later year. Frequency distribution was identified and the statistical tables recorded.
 
+DATA SOURCE
+healthdata.gov: Behavioural Risk Factor Surveillance System (BRFSS)
+
 The data visualisation were carried out in the following:
 1. The Time series analysis showing the trend of Tobacco usage between the targeted year range
 2. Pie Chart showing the usage by gender which showed female at 50.04% compared to men 49.96%
@@ -18,6 +21,13 @@ The data visualisation were carried out in the following:
 4. Findings also showed Ages between 20 & above use these products more than every other age bracket
 5. Among the difference types of tobacco, Cigarette is widely used, taking 53.6% from the other while only 12.6% are considering quiting smoking.
 6. The study also spotted less than 12th Grade educated people take tobacco
-7. The report revealed that there are certain states where smoking is high. Kentucky ranked highest, followed by Arkansa and Mississippi.
+7. The report revealed that there are certain states where smoking was higher. Kentucky ranked highest, followed by Arkansa and Mississippi.
+
+TOOLS
+Python programming Language: Jupyter notebook
+Libraries: Pandas, Numpy, Matplotlib, Seaborn, Skew, Kurtosis
+Visualisation: Tableau
+Others: Excel
+
 
  
